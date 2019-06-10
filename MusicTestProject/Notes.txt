@@ -1,0 +1,61 @@
+# RESOURCES #
+MP3 API:
+http://www.youtubemp3script.com/#integrate-api
+
+YouTube API (search.list):
+https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=50&q=TESTQUERY&type=video&videoCategoryId=10&key={YOUR_API_KEY}
+
+Design Videos:
+https://developer.apple.com/videos/design/
+
+Human Interface Guidelines:
+https://developer.apple.com/ios/human-interface-guidelines/overview/themes/
+
+# SEARCH LOGIC (Sections) #
+--
+
+isArtist(channelId) {
+    return search.list (with type video, channel id and category 10) != 0
+}
+
+TOP HIT
+if first search.list result is type video
+- display video (info from Song instance)
+else if first search.list result is type channel
+- if isArtist(channelId)
+- - display artist (info from Artist instance)
+
+SONGS (search.list type video)
+display song title (info from Song instance)
+display song artist (info from Song instance)
+
+ARTISTS (search.list type channel)
+if isArtist(channelId)
+- display artist (info from Artist instance)
+
+# SONG SEARCH BY ARTIST #
+https://www.googleapis.com/youtube/v3/search?part=snippet&channelId={CHANNEL_ID}&maxResults={MAX_RESULTS}&type=video&videoCategoryId=10&key={API_KEY}
+
+
+# SONGS #
+Options:
+- Initialize with audio URL (downloads another JSON file after each initialization)
+- Initialize without audio URL, call a method to initialize URL (only initializes audio URL when needed)
+
+# COLOURS #
+Background:              #0D0D0D
+Tab/navigation bars:     Dark Style
+Table cells:             #151515
+White text:              #FFFFFF (UIColor.white)
+Grey text/tab bar items: #808080 (UIColor.gray)
+Theme colour:            #FF2D55
+
+# NAVIGATION #
+Create View Controller files for navigation, tab bars, etc.
+Set the navigation bar title according to the current tab name.
+
+# SEARCH BAR #
+https://stackoverflow.com/questions/46007260/ios-11-customise-search-bar-in-navigation-bar
+
+# NETWORK ERRORS #
+https://appventure.me/2015/10/17/advanced-practical-enum-examples/#errortype

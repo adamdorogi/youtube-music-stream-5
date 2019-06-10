@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790238F51F79EAE000EF7558 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790238F41F79EAE000EF7558 /* Song.swift */; };
+		79025C841F7B4E7D00000B1A /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 79025C831F7B4E7D00000B1A /* Notes.txt */; };
+		791F85EF1FC2FB0200688D71 /* PlayerBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F85EE1FC2FB0200688D71 /* PlayerBar.swift */; };
+		79589EA51FC3F8DB003EDE21 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79589EA41FC3F8DB003EDE21 /* Colors.swift */; };
+		7969160C1FC5128C00FFDA2A /* CellDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7969160B1FC5128C00FFDA2A /* CellDimensions.swift */; };
+		796D61581FC0480F00569A1B /* PlayerBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796D61571FC0480F00569A1B /* PlayerBarController.swift */; };
+		79CF2B431F7DE7A2000545BB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CF2B421F7DE7A2000545BB /* API.swift */; };
+		79CF2B451F7E02A3000545BB /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CF2B441F7E02A3000545BB /* SearchTableViewController.swift */; };
+		79CF2B471F7E2CD8000545BB /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CF2B461F7E2CD8000545BB /* SongTableViewCell.swift */; };
+		79D3BA041F7A8C7400620256 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D3BA031F7A8C7400620256 /* Artist.swift */; };
+		79DF36091FBDB09E008A1AA5 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DF36081FBDB09E008A1AA5 /* PlayerViewController.swift */; };
 		79FD3FB31F7685AB00A8B4DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD3FB21F7685AB00A8B4DC /* AppDelegate.swift */; };
 		79FD3FB51F7685AB00A8B4DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD3FB41F7685AB00A8B4DC /* ViewController.swift */; };
 		79FD3FB81F7685AB00A8B4DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FD3FB61F7685AB00A8B4DC /* Main.storyboard */; };
@@ -14,6 +25,7 @@
 		79FD3FBD1F7685AB00A8B4DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79FD3FBB1F7685AB00A8B4DC /* LaunchScreen.storyboard */; };
 		79FD3FC81F7685AB00A8B4DC /* MusicTestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD3FC71F7685AB00A8B4DC /* MusicTestProjectTests.swift */; };
 		79FD3FD31F7685AB00A8B4DC /* MusicTestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD3FD21F7685AB00A8B4DC /* MusicTestProjectUITests.swift */; };
+		79FD6C5B1F810B4D0098881A /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FD6C5A1F810B4D0098881A /* ArtistTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		790238F41F79EAE000EF7558 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		79025C831F7B4E7D00000B1A /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
+		791F85EE1FC2FB0200688D71 /* PlayerBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBar.swift; sourceTree = "<group>"; };
+		79589EA41FC3F8DB003EDE21 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		7969160B1FC5128C00FFDA2A /* CellDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellDimensions.swift; sourceTree = "<group>"; };
+		796D61571FC0480F00569A1B /* PlayerBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBarController.swift; sourceTree = "<group>"; };
+		79CF2B421F7DE7A2000545BB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		79CF2B441F7E02A3000545BB /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		79CF2B461F7E2CD8000545BB /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		79D3BA031F7A8C7400620256 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		79DF36081FBDB09E008A1AA5 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		79FD3FAF1F7685AB00A8B4DC /* MusicTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FD3FB21F7685AB00A8B4DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FD3FB41F7685AB00A8B4DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,7 @@
 		79FD3FCE1F7685AB00A8B4DC /* MusicTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FD3FD21F7685AB00A8B4DC /* MusicTestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTestProjectUITests.swift; sourceTree = "<group>"; };
 		79FD3FD41F7685AB00A8B4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FD6C5A1F810B4D0098881A /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79141A691F77B0DD005F3F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79DF19FB1FE1EE6E008E5CCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79FD6C5A1F810B4D0098881A /* ArtistTableViewCell.swift */,
+				79CF2B461F7E2CD8000545BB /* SongTableViewCell.swift */,
+				791F85EE1FC2FB0200688D71 /* PlayerBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79DF19FC1FE1EE91008E5CCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79CF2B421F7DE7A2000545BB /* API.swift */,
+				79D3BA031F7A8C7400620256 /* Artist.swift */,
+				7969160B1FC5128C00FFDA2A /* CellDimensions.swift */,
+				79589EA41FC3F8DB003EDE21 /* Colors.swift */,
+				790238F41F79EAE000EF7558 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		79DF19FD1FE1EEA6008E5CCF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				796D61571FC0480F00569A1B /* PlayerBarController.swift */,
+				79DF36081FBDB09E008A1AA5 /* PlayerViewController.swift */,
+				79CF2B441F7E02A3000545BB /* SearchTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		79FD3FA61F7685AB00A8B4DC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +144,7 @@
 				79FD3FC61F7685AB00A8B4DC /* MusicTestProjectTests */,
 				79FD3FD11F7685AB00A8B4DC /* MusicTestProjectUITests */,
 				79FD3FB01F7685AB00A8B4DC /* Products */,
+				79141A691F77B0DD005F3F1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,10 @@
 			children = (
 				79FD3FB21F7685AB00A8B4DC /* AppDelegate.swift */,
 				79FD3FB41F7685AB00A8B4DC /* ViewController.swift */,
+				79025C831F7B4E7D00000B1A /* Notes.txt */,
+				79DF19FC1FE1EE91008E5CCF /* Models */,
+				79DF19FB1FE1EE6E008E5CCF /* Views */,
+				79DF19FD1FE1EEA6008E5CCF /* Controllers */,
 				79FD3FB61F7685AB00A8B4DC /* Main.storyboard */,
 				79FD3FB91F7685AB00A8B4DC /* Assets.xcassets */,
 				79FD3FBB1F7685AB00A8B4DC /* LaunchScreen.storyboard */,
@@ -232,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79025C841F7B4E7D00000B1A /* Notes.txt in Resources */,
 				79FD3FBD1F7685AB00A8B4DC /* LaunchScreen.storyboard in Resources */,
 				79FD3FBA1F7685AB00A8B4DC /* Assets.xcassets in Resources */,
 				79FD3FB81F7685AB00A8B4DC /* Main.storyboard in Resources */,
@@ -259,8 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791F85EF1FC2FB0200688D71 /* PlayerBar.swift in Sources */,
+				79589EA51FC3F8DB003EDE21 /* Colors.swift in Sources */,
+				790238F51F79EAE000EF7558 /* Song.swift in Sources */,
+				79CF2B451F7E02A3000545BB /* SearchTableViewController.swift in Sources */,
 				79FD3FB51F7685AB00A8B4DC /* ViewController.swift in Sources */,
+				79CF2B471F7E2CD8000545BB /* SongTableViewCell.swift in Sources */,
+				79D3BA041F7A8C7400620256 /* Artist.swift in Sources */,
+				79DF36091FBDB09E008A1AA5 /* PlayerViewController.swift in Sources */,
+				796D61581FC0480F00569A1B /* PlayerBarController.swift in Sources */,
 				79FD3FB31F7685AB00A8B4DC /* AppDelegate.swift in Sources */,
+				7969160C1FC5128C00FFDA2A /* CellDimensions.swift in Sources */,
+				79FD6C5B1F810B4D0098881A /* ArtistTableViewCell.swift in Sources */,
+				79CF2B431F7DE7A2000545BB /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = MusicTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = testasd.MusicTestProject;
@@ -441,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = MusicTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = testasd.MusicTestProject;
